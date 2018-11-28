@@ -1672,7 +1672,7 @@ class TurtleWindow(object):
         # (something flashed) but nothing worse.  At time time
         # it is commented-out, since we need only a single TurtleWindow.
 
-        # turtle.TurtleScreen._RUNNING = True
+        turtle.TurtleScreen._RUNNING = True
 
     def display_message(self, message, point):
         """ Displays the given message at the given Point. """
